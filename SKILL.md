@@ -37,7 +37,10 @@ Gin (contrib) :
 
 | Besoin | Outil | Référence |
 |--------|-------|-----------|
-| Installer Gin | `composer require drupal/gin` + `drush en gin` | [gin-setup.md](gin-setup.md) |
+| Installer Gin | `composer require drupal/gin drupal/gin_toolbar` | [gin-setup.md](gin-setup.md) |
+| Configurer la nouvelle navigation sidebar (D10.3+) | Gin settings → Toolbar → Sidebar | [gin-navigation.md](gin-navigation.md) |
+| Personnaliser les items de navigation Gin | `hook_toolbar_alter()` | [gin-navigation.md](gin-navigation.md) |
+| Icône custom dans la sidebar navigation | CSS background-image sur `.toolbar-icon-NOM` | [gin-navigation.md](gin-navigation.md) |
 | Définir Gin comme thème admin | `drush config:set system.theme admin gin` | [gin-setup.md](gin-setup.md) |
 | Activer la navigation sidebar | Gin settings → Toolbar → Classic Gin Navigation | [gin-setup.md](gin-setup.md) |
 | Activer le mode sombre | Gin settings → Appearance → Dark mode | [gin-setup.md](gin-setup.md) |
